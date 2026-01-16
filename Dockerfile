@@ -1,7 +1,7 @@
-# Use a valid OpenJDK 17 image
-FROM openjdk:17-jdk-bullseye
+# Use Eclipse Temurin JDK 17 (supported image)
+FROM eclipse-temurin:17-jdk
 
-# Set working directory inside container
+# Set working directory
 WORKDIR /app
 
 # Copy your Spring Boot jar
